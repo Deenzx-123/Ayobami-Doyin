@@ -55,7 +55,7 @@ The core challenge became:
       'Escrow payment system',
       'Live service tracking'
     ],
-    image: '/src/images/Marketplace.webp',
+    image: '/Marketplace.webp',
     videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
     wireframeImage: 'https://picsum.photos/seed/mechanic-wire/1200/800',
     mockupImage: 'https://picsum.photos/seed/mechanic-mock/1200/800',
@@ -69,21 +69,21 @@ The core challenge became:
         description: `The home screen prioritizes nearby mechanics, search functionality, and rating visibility. 
         
 Users can immediately see distance, availability, and verified status. The goal was to eliminate uncertainty at first glance.`, 
-        image: '/src/images/Homeandsearch.webp' 
+        image: '/Homeandsearch.webp' 
       },
       { 
         title: 'Mechanic Profile', 
         description: `Designed as the trust anchor of the product. 
         
 Includes professional photos, verified badges, years of experience, specializations, and estimated service pricing. Visual hierarchy ensures reviews are highly visible.`, 
-        image: '/src/images/Sellerprofile.webp' 
+        image: '/Sellerprofile.webp' 
       },
       { 
         title: 'User Profile', 
         description: `Designed as the trust anchor of the product. 
         
 Includes professional photos, verified badges, years of experience, specializations, and estimated service pricing. Visual hierarchy ensures reviews are highly visible.`, 
-        image: '/src/images/customer profile.webp' 
+        image: '/customer profile.webp' 
       },
       
       { 
@@ -91,7 +91,7 @@ Includes professional photos, verified badges, years of experience, specializati
         description: `The booking process was simplified into three steps: Select service, Choose date/time, and Confirm. 
         
 Clear confirmation messages and booking summaries reduce ambiguity.`, 
-        image: '/src/images/Booking flow.webp' 
+        image: '/Booking flow.webp' 
       },
       
       { 
@@ -99,7 +99,7 @@ Clear confirmation messages and booking summaries reduce ambiguity.`,
         description: `Payments are escrowed and app will use an in-app wallet to make all payments easily tracked and escrowed for any services done. 
         
 This builds long-term trust within the marketplace ecosystem.`, 
-        image: '/src/images/Wallet.webp' 
+        image: '/Wallet.webp' 
       }
     ],
     year: '2024',
@@ -162,7 +162,7 @@ The product combines **reflection, pattern recognition, and gentle guidance** in
       'AI-driven emotional summaries',
       'Guided wellness exercises'
     ],
-    image: '/src/images/newmood.webp',
+    image: '/newmood.webp',
     wireframeImage: 'https://picsum.photos/seed/mood-wire/1200/800',
     mockupImage: 'https://picsum.photos/seed/mood-mock/1200/800',
     gallery: [
@@ -180,7 +180,7 @@ The product combines **reflection, pattern recognition, and gentle guidance** in
 - Encourage first mood log within 60 seconds
 
 Users are guided through a short introduction to emotional tracking, quick mood selection, and a simple journaling prompt. The tone is conversational and affirming.`, 
-        image: '/src/images/Onboarding1.webp' 
+        image: '/Onboarding1.webp' 
       },
       { 
         title: 'Sign-Up Flow', 
@@ -192,7 +192,7 @@ Users are guided through a short introduction to emotional tracking, quick mood 
 - Encouraging copy
 
 The aim was to prevent drop-off during account creation.`, 
-        image: '/src/images/sign up flow.webp' 
+        image: '/sign up flow.webp' 
       },
       { 
         title: 'Logging Your Mood', 
@@ -203,7 +203,7 @@ The aim was to prevent drop-off during account creation.`,
 - Micro-animations that respond to interaction
 
 The design transforms mood logging into a short reflective ritual rather than a checklist.`, 
-        image: '/src/images/Lognewmood.webp' 
+        image: '/Lognewmood.webp' 
       },
       { 
         title: 'Insights Dashboard', 
@@ -215,7 +215,7 @@ The design transforms mood logging into a short reflective ritual rather than a 
 
 
 The interface balances data and warmth — charts are visually clean, but insights are written in human language.`, 
-        image: '/src/images/Insightsdashboard.webp' 
+        image: '/Insightsdashboard.webp' 
       }
     ],
     year: '2024',
