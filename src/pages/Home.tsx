@@ -18,7 +18,7 @@ export default function Home() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-electric-blue opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-electric-blue"></span>
             </span>
-            Designing for the AI Era
+            Designing Your Thougts to Perfection
           </motion.div>
           
           <motion.h1 
@@ -27,16 +27,15 @@ export default function Home() {
             transition={{ delay: 0.1 }}
             className="text-6xl md:text-8xl font-display font-bold text-white tracking-tight leading-[1.05] mb-10"
           >
-            Designing <span className="text-gradient">Intelligent Experiences</span> for Humans and Machines.
+            Crafting <span className="text-gradient">Scalable Products</span> with a Human Touch.
           </motion.h1>
-          
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
             className="text-xl md:text-2xl text-cool-gray leading-relaxed mb-14 max-w-3xl"
           >
-            I craft AI-powered, scalable, and emotionally intuitive digital products with clarity and systems thinking.
+            I design easy-to-use apps and websites by organizing complex ideas into a clear, friendly experience for the person using them.
           </motion.p>
 
           <motion.div 
