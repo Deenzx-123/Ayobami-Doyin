@@ -69,7 +69,7 @@ The core challenge became:
         description: `The home screen prioritizes nearby mechanics, search functionality, and rating visibility. 
         
 Users can immediately see distance, availability, and verified status. The goal was to eliminate uncertainty at first glance.`, 
-        image: '/src/images/Homeandsearch.webp' 
+        image: 'Homeandsearch.webp' 
       },
       { 
         title: 'Mechanic Profile', 
