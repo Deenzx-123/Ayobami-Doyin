@@ -23,7 +23,7 @@ useEffect(() => {
     { name: 'Contact', path: '/contact' },
   ];
 
-  return (
+ return (
   <>
     <nav className="fixed top-0 left-0 w-full z-50 bg-navy-900/80 backdrop-blur-md border-b border-white/5 px-6 py-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
@@ -51,28 +51,44 @@ useEffect(() => {
 
         <button 
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="md:hidden p-2 text-white relative z-[200]"
+          className="md:hidden p-2 text-white"
         >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          <Menu size={24} />
         </button>
       </div>
     </nav>
 
+    {/* Backdrop */}
     {isMenuOpen && (
-      <div className="fixed inset-0 z-[150] bg-navy-900 flex flex-col items-center justify-center gap-10 md:hidden">
-        <Link to="/" onClick={() => setIsMenuOpen(false)} className="text-2xl font-display font-bold text-white hover:text-electric-blue transition-colors">Home</Link>
-        {navItems.map((item) => (
-          <Link 
-            key={item.name}
-            to={item.path}
-            onClick={() => setIsMenuOpen(false)}
-            className="text-2xl font-display font-bold text-white hover:text-electric-blue transition-colors"
-          >
-            {item.name}
-          </Link>
-        ))}
-      </div>
+      <div 
+        className="fixed inset-0 z-[100] bg-black/50 md:hidden"
+        onClick={() => setIsMenuOpen(false)}
+      />
     )}
+
+    {/* Sidebar */}
+    <div className={`fixed top-0 right-0 h-full w-72 z-[200] bg-navy-900 border-l border-white/10 flex flex-col pt-24 px-8 gap-8 md:hidden transition-transform duration-300 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+      
+      {/* Close button inside sidebar */}
+      <button 
+        onClick={() => setIsMenuOpen(false)}
+        className="absolute top-5 right-5 p-2 text-cool-gray hover:text-white"
+      >
+        <X size={24} />
+      </button>
+
+      <Link to="/" onClick={() => setIsMenuOpen(false)} className="text-xl font-display font-bold text-white hover:text-electric-blue transition-colors">Home</Link>
+      {navItems.map((item) => (
+        <Link 
+          key={item.name}
+          to={item.path}
+          onClick={() => setIsMenuOpen(false)}
+          className="text-xl font-display font-bold text-white hover:text-electric-blue transition-colors"
+        >
+          {item.name}
+        </Link>
+      ))}
+    </div>
   </>
 );
 }
