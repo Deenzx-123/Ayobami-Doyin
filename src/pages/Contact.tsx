@@ -17,20 +17,17 @@ export default function Contact() {
             I'm currently accepting new freelance projects and full-time opportunities. Let's build something amazing together.
           </p>
           <a 
-            href="mailto:hello@aura.design" 
+            href="mailto:doyinsolaayobami@gmail.com" 
             className="inline-flex items-center gap-4 px-12 py-6 bg-electric-blue text-white rounded-[2rem] font-bold text-xl hover:scale-105 transition-transform shadow-2xl shadow-electric-blue/20 group"
           >
             Send an Email <ArrowRight size={28} className="group-hover:translate-x-1 transition-transform" />
           </a>
           
           <div className="flex justify-center gap-8 mt-20">
-            <a href="#" className="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors text-cool-gray hover:text-white">
+            <a href="www.linkedin.com/in/doyin-salawu-5044a228b/" className="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors text-cool-gray hover:text-white">
               <Linkedin size={24} />
             </a>
-            <a href="#" className="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors text-cool-gray hover:text-white">
-              <Instagram size={24} />
-            </a>
-            <a href="#" className="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors text-cool-gray hover:text-white">
+            <a href="https://github.com/Deenzx-123" className="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors text-cool-gray hover:text-white">
               <Github size={24} />
             </a>
           </div>
@@ -47,21 +44,21 @@ export default function Contact() {
             <Mail size={20} />
           </div>
           <h3 className="font-display font-bold text-white mb-3 text-xl">Email</h3>
-          <p className="text-cool-gray text-lg">hello@aura.design</p>
+          <p className="text-cool-gray text-lg">doyinsolaayobami@gmail.com</p>
         </div>
         <div className="p-10 glass-card rounded-[2rem]">
           <div className="w-10 h-10 rounded-xl bg-soft-violet/10 flex items-center justify-center text-soft-violet mb-6">
             <Linkedin size={20} />
           </div>
           <h3 className="font-display font-bold text-white mb-3 text-xl">LinkedIn</h3>
-          <p className="text-cool-gray text-lg">/in/doyinayobami</p>
+          <p className="text-cool-gray text-lg">/in/doyin-salawu-5044a228b/</p>
         </div>
         <div className="p-10 glass-card rounded-[2rem]">
           <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-white mb-6">
             <Github size={20} />
           </div>
           <h3 className="font-display font-bold text-white mb-3 text-xl">Github</h3>
-          <p className="text-cool-gray text-lg">@doyin_ayobami</p>
+          <p className="text-cool-gray text-lg">@Deenzx-123</p>
         </div>
       </div>
     </div>
