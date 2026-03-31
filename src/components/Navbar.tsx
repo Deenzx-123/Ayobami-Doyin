@@ -1,10 +1,21 @@
 import { motion } from 'motion/react';
 import { Menu, X } from 'lucide-react';
-import { useState } from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { NavLink, Link, useLocation } from 'react-router-dom';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const location = useLocation();
+
+useEffect(() => {
+  setIsMenuOpen(false);
+}, [location]);
+
+useEffect(() => {
+  document.body.style.overflow = isMenuOpen ? 'hidden' : '';
+  return () => { document.body.style.overflow = ''; };
+}, [isMenuOpen]);
 
   const navItems = [
     { name: 'Work', path: '/work' },
@@ -13,6 +24,7 @@ export default function Navbar() {
   ];
 
   return (
+  <>
     <nav className="fixed top-0 left-0 w-full z-50 bg-navy-900/80 backdrop-blur-md border-b border-white/5 px-6 py-4">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <Link 
@@ -39,30 +51,28 @@ export default function Navbar() {
 
         <button 
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="md:hidden p-2 text-cool-gray"
+          className="md:hidden p-2 text-white relative z-[200]"
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
       </div>
+    </nav>
 
-      {/* Mobile Menu Overlay */}
-      <motion.div 
-        initial={false}
-        animate={{ opacity: isMenuOpen ? 1 : 0, y: isMenuOpen ? 0 : -20 }}
-        className={`fixed inset-0 bg-navy-900 z-40 flex flex-col items-center justify-center gap-8 md:hidden transition-all duration-300 ${isMenuOpen ? 'visible' : 'invisible'}`}
-      >
-        <Link to="/" onClick={() => setIsMenuOpen(false)} className="text-3xl font-display font-bold text-white">Home</Link>
+    {isMenuOpen && (
+      <div className="fixed inset-0 z-[150] bg-navy-900 flex flex-col items-center justify-center gap-10 md:hidden">
+        <Link to="/" onClick={() => setIsMenuOpen(false)} className="text-2xl font-display font-bold text-white hover:text-electric-blue transition-colors">Home</Link>
         {navItems.map((item) => (
           <Link 
             key={item.name}
             to={item.path}
             onClick={() => setIsMenuOpen(false)}
-            className="text-3xl font-display font-bold text-white"
+            className="text-2xl font-display font-bold text-white hover:text-electric-blue transition-colors"
           >
             {item.name}
           </Link>
         ))}
-      </motion.div>
-    </nav>
-  );
+      </div>
+    )}
+  </>
+);
 }
