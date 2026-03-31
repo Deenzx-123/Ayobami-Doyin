@@ -24,7 +24,7 @@ export default function Contact() {
           </a>
           
           <div className="flex justify-center gap-8 mt-20">
-            <a href="www.linkedin.com/in/doyin-salawu-5044a228b/" className="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors text-cool-gray hover:text-white">
+            <a href="https://linkedin.com/in/doyin-salawu-5044a228b/" className="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors text-cool-gray hover:text-white">
               <Linkedin size={24} />
             </a>
             <a href="https://github.com/Deenzx-123" className="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center hover:bg-white/10 transition-colors text-cool-gray hover:text-white">
