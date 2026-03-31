@@ -30,7 +30,8 @@ export default function About() {
           </p>
           <p className="text-lg text-cool-gray leading-relaxed mb-12">
             I focus on how people think and feel, turning complicated ideas into simple tools that grow as a business grows. I believe technology should always be clear, helpful, and easy for everyone to understand.
-          <div className="space-y-10">
+          </p>
+            <div className="space-y-10">
             <div className="p-8 glass-card rounded-2xl">
               <h4 className="text-electric-blue font-bold uppercase tracking-widest text-xs mb-4">Focus Areas</h4>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-soft-white">
