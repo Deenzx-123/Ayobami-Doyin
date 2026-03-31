@@ -11,7 +11,7 @@ export default function About() {
         >
           <div className="aspect-[4/5] rounded-[2rem] overflow-hidden bg-navy-800 border border-white/10">
             <img 
-              src="/src/images/Doyin.jpeg" 
+              src="/Doyin.jpeg" 
               alt="Doyin Ayobami" 
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-1000"
               referrerPolicy="no-referrer"
