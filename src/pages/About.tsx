@@ -26,12 +26,10 @@ export default function About() {
         >
           <h1 className="text-5xl md:text-6xl font-display font-bold text-white mb-10">About</h1>
           <p className="text-2xl text-white leading-relaxed mb-10 font-medium">
-            I am a UI/UX designer focused on AI-integrated products, user psychology, and scalable design systems.
+            I’m a designer who makes apps and websites feel easy to use and well-organized.
           </p>
           <p className="text-lg text-cool-gray leading-relaxed mb-12">
-            My work blends human empathy with structured problem-solving to create intuitive and intelligent digital experiences. I believe that as we move into an AI-driven future, the role of design is to ensure technology remains human-centric, transparent, and accessible.
-          </p>
-          
+            I focus on how people think and feel, turning complicated ideas into simple tools that grow as a business grows. I believe technology should always be clear, helpful, and easy for everyone to understand.
           <div className="space-y-10">
             <div className="p-8 glass-card rounded-2xl">
               <h4 className="text-electric-blue font-bold uppercase tracking-widest text-xs mb-4">Focus Areas</h4>
@@ -49,11 +47,11 @@ export default function About() {
               <div className="space-y-6">
                 <div>
                   <h5 className="text-white font-bold">Senior Product Designer</h5>
-                  <p className="text-xs text-cool-gray">Aura Design Studio • 2022 — Present</p>
+                  <p className="text-xs text-cool-gray">Aimtoget • 2022 — Present</p>
                 </div>
                 <div>
                   <h5 className="text-white font-bold">UI/UX Designer</h5>
-                  <p className="text-xs text-cool-gray">Studio X • 2020 — 2022</p>
+                  <p className="text-xs text-cool-gray">Moodmate • 2025 — Present</p>
                 </div>
               </div>
             </div>
