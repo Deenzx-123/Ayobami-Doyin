@@ -56,7 +56,6 @@ The core challenge became:
       'Live service tracking'
     ],
     image: '/Marketplace.webp',
-    videoUrl: ,
     wireframeImage: 'https://picsum.photos/seed/mechanic-wire/1200/800',
     mockupImage: 'https://picsum.photos/seed/mechanic-mock/1200/800',
     gallery: [
@@ -104,7 +103,7 @@ This builds long-term trust within the marketplace ecosystem.`,
     ],
     year: '2024',
     role: 'Lead UI/UX Designer',
-    tags: ['Marketplace', 'Service Design', 'Web App']
+    tags: ['Marketplace', 'Service Design', 'Web App'],
     videoUrl: 'VXijAko89CQ',
   },
   {
