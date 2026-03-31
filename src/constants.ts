@@ -55,7 +55,7 @@ The core challenge became:
       'Escrow payment system',
       'Live service tracking'
     ],
-    image: '/src/images/Marketplace.webp',
+    image: 'Marketplace.webp',
     videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
     wireframeImage: 'https://picsum.photos/seed/mechanic-wire/1200/800',
     mockupImage: 'https://picsum.photos/seed/mechanic-mock/1200/800',
